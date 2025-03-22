@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Github, Linkedin, Mail, Menu, Moon, Sun } from "lucide-react"
+import {  Linkedin, Mail, Menu } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import ProjectCard from "@/components/project-card"
@@ -19,7 +19,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import MobileMenu from "@/components/mobile-menu"
 import AnimatedText from "@/components/animated-text"
 import SectionHeading from "@/components/section-heading"
-import CursorFollower from "@/components/cursor-follower"
+// import CursorFollower from "@/components/cursor-follower"
 import ScrollIndicator from "@/components/scroll-indicator"
 import { useTheme } from "next-themes"
 
@@ -360,7 +360,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-gray-600 dark:text-gray-400 mb-6">
-              I'm currently open to new opportunities and collaborations. Feel free to reach out!
+              {"I'm currently open to new opportunities and collaborations. Feel free to reach out!"}
             </p>
 
             <Button

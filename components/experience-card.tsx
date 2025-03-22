@@ -1,6 +1,6 @@
 "use client"
 
-import { Calendar, Building2, ArrowRight } from "lucide-react"
+import { Calendar, Building2 } from "lucide-react"
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
 
