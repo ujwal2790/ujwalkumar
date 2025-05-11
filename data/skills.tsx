@@ -84,7 +84,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Compute Engine", icon: <img src={computeIcon.src} alt="Compute Engine"  /> },
       { name: "Dialogflow", icon: <img src={DialogflowIcon.src} alt="Dialogflow"  /> },
       { name: "Google Kubernetes Engine", icon: <img src={kubernetesIcon.src} alt="Google Kubernetes Engine"  /> },
-      { name: "Secrte Manager", icon: <img src={secretIcon.src} alt="Secrte Manager"  /> },
+      { name: "Secret Manager", icon: <img src={secretIcon.src} alt="Secret Manager"  /> },
       { name: "GCP Workflows", icon: <img src={workflowsicon.src} alt="GCP Workflows"  /> },
       { name: "BigQuery", icon: <SiGooglebigquery className="text-[#4285f4]" /> },
       { name: "Amazon EC2", icon: <SiAmazonec2 className="text-[#ff9900]" /> },
